@@ -28,7 +28,7 @@ backgroundSize: cover
 
 # First Commit on Angular Repo
 <div class="flex items-center justify-center" style="height: calc(100% - 100px)">
-    <img  src="first-commit.png" style="width:65%"/>
+    <img  src="/first-commit.png" style="width:65%"/>
 </div>
 
 <div v-mark.red.circle class="absolute" style="width: 220px; height: 50px; top: 260px; left:360px"></div>
