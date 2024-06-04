@@ -190,6 +190,13 @@ layout: center
     <li>Better API and Ergonomy</li>
 </ul>
 
+<style>
+    li {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+
 ---
 ---
 
@@ -222,7 +229,7 @@ layout: center
 ---
 ---
 
-# Ressources for Structural Directives
+# Resources for Structural Directives
 
 <ul>
     <li><a href="https://angular.dev/guide/directives#built-in-structural-directives" target="_blank">Angular Docs</a></li>
@@ -233,7 +240,7 @@ layout: center
 ---
 ---
 
-# Ressources for Control Flow
+# Resources for Control Flow
 
 <ul>
     <li><a href="https://angular.dev/guide/templates/control-flow" target="_blank">Angular Docs</a></li>
@@ -241,6 +248,13 @@ layout: center
     <li><a href="https://www.youtube.com/watch?v=hsUxJjY-PRg" target="_blank">Announcement Video By Angular Team</a></li>
     <li><a href="https://www.youtube.com/watch?v=77tKyAOFO4o" target="_blank">Video ByJoshua Morony</a></li>
 </ul>
+
+<style>
+    li {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
 
 ---
 layout: image
@@ -409,60 +423,310 @@ layout: center
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWc0Nm5jZDB5aDd6MjIxMWJxd2FrcHI1c3JzcHpwa3doanc0cWtjeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1OZYnHCILinabxMF5H/giphy.webp" />
 
 ---
+---
+# Resources for NgModules
+
+<ul>
+    <li><a href="https://angular.dev/guide/ngmodules" target="_blank">Angular Docs</a></li>
+    <li><a href="https://blog.angular-university.io/angular2-ngmodule/" target="_blank">Angular University</a></li>
+    <li><a href="https://www.youtube.com/watch?v=oqZ4-ULwfbc" target="_blank">Video By Fireship</a></li>
+</ul>
+
+---
+---
+
+# Resources for Standalone Components
+
+<ul>
+    <li><a href="https://www.angulararchitects.io/en/blog/angulars-future-without-ngmodules-lightweight-solutions-on-top-of-standalone-components/" target="_blank">8 Part Series by Manfred Steyer</a></li>
+    <li><a href="https://blog.angular-university.io/angular-standalone-components/" target="_blank">4 Part Series by Robin Goetz</a></li>
+    <li><a href="https://www.youtube.com/watch?v=c8YGsPx0zVk" target="_blank">Video By Deborah Kurata</a></li>
+</ul>
+
+---
+layout: cover
+transition: view-transition
+---
+
+<div class="w-full flex justify-between">
+    <h1 class="inline-block" style="view-transition-name: signals-headline"> Signals</h1> <h1 class="inline-block">vs</h1> <h1 class="inline-block"  style="view-transition-name: observable-headline">Observables</h1>
+</div>
+
+---
 layout: cover
 ---
 
-# Signals vs Observables
+<div class="flex w-full mb-8">
+    <div class="w-full">
+        <span class="text-4xl" style="view-transition-name: signals-headline">Signals</span>
+    </div>
+    <div class="w-full">
+        <span class="text-4xl" style="view-transition-name: observable-headline">Observables</span>
+    </div>
+</div>
+<div class="flex w-full mb-8" v-click>
+    <ul class="w-full">
+        <li class="ml-0! mr-4!">Stateful</li>
+        <li class="ml-0! mr-4!">1 Value</li>
+        <li class="ml-0! mr-4!">Synchronous</li>
+    </ul>
+    <ul class="w-full">
+        <li class="ml-0!">Stateless</li>
+        <li class="ml-0!">0 to Infinite Values</li>
+        <li class="ml-0!">Synchronous or <span v-mark.circle.red="2">Asynchronous</span></li>
+    </ul>   
+</div>
 
 ---
 layout: cover
 ---
 
+<div class="flex w-full mb-8">
+    <div class="w-full">
+        <span class="text-4xl" style="view-transition-name: signals-headline">Signals</span>
+    </div>
+    <div class="w-full">
+        <span class="text-4xl" style="view-transition-name: observable-headline">Observables</span>
+    </div>
+</div>
+<div class="flex w-full mb-8">
+    <ul class="w-full">
+        <li class="ml-0! mr-4!">Everything that is rendered</li>
+        <li class="ml-0! mr-4!">performant rendering</li>
+    </ul>
+    <ul class="w-full">
+        <li class="ml-0!">Event Coordination</li>
+        <li class="ml-0!">Cancellation</li>
+        <li class="ml-0!"><span v-mark.red>Asynchronous</span></li>
+    </ul>   
+</div>
+
+---
+layout: cover
+---
+## My Recommendation
 # Start with Signals
 
 ---
 layout: cover
 ---
 
+## My Recommendation
 # But do Learn Observables
+---
+---
+# Resources for Signals
+
+<ul>
+    <li><a href="https://angular.dev/guide/signals" target="_blank">Angular Docs</a></li>
+    <li><a href="https://angular-signals.dev/" target="_blank">Signals Course by Maciej Wojcik</a></li>
+    <li><a href="https://www.youtube.com/watch?v=Qy-oUc5eB2M" target="_blank">Video By the Angular Team</a></li>
+</ul>
+
+---
+---
+
+# Resources for Observables
+
+<ul>
+    <li><a href="https://rxjs.dev/guide/observable" target="_blank">RxJS Docs</a></li>
+    <li><a href="https://codecraft.tv/courses/angular/reactive-programming-with-rxjs/observables-and-rxjs/" target="_blank">Blog by Asim Hussain</a></li>
+    <li><a href="https://www.youtube.com/watch?v=m40cF91F8_A" target="_blank">Talk By Ben Lesh</a></li>
+</ul>
 
 ---
 layout: cover
 ---
 
-# Constructor Injection vs inject()
+# Constructor Injection vs Inject()
 
 ---
+layout: cover
+---
+
+````md magic-move
+
+```angular-ts
+@Component({})
+class SomeComponent {
+    constructor(){}
+}
+```
+```angular-ts
+@Component({})
+class SomeComponent {
+    constructor(private httpClient: HttpClient){}
+}
+```
+```angular-ts
+@Component({})
+class SomeComponent {
+    private httpClient = inject(HttpClient);
+}
+```
+````
+---
+layout: cover
+---
+
+# Constructor Injection is pretty intuitive
+## Inject Function has some pitfalls
+
+---
+---
+````md magic-move
+```angular-ts
+const load = () => {
+  const foo = inject(FooService);
+  foo.doSome();
+};
+
+@Component({
+  selector: 'my-app',
+  template: `in app! <button (click)="onClick()">click </button>`,
+})
+export class AppComponent {
+  name = 'Angular ' + VERSION.major;
+
+  onClick() {
+    load();
+  }
+}
+```
+```shell
+Error: NG0203: inject() must be called from an injection context 
+(a constructor, a factory function or a field initializer)
+
+```
+```angular-ts{*|12|15-17}
+const load = () => {
+  const foo = inject(FooService);
+  foo.doSome();
+};
+
+@Component({
+  selector: 'my-app',
+  template: `in app! <button (click)="onClick()">click </button>`,
+})
+export class AppComponent {
+  name = 'Angular ' + VERSION.major;
+  private injector = inject(EnvironmentInjector)
+
+  onClick() {
+    this.injector.runInContext(() => {
+      load(); // in this context, injections are allowed. 
+    });
+  }
+}
+```
+````
+
+---
+---
+````md magic-move
+```angular-ts
+const getCharacters = () => {
+    const httpClient = inject(HttpClient);
+    const destroyRef = inject(DestroyRef);
+    return httpClient.get("https://rickandmortyapi.com/api/character").pipe(
+        catchError((e) => {
+            console.error({e})
+            return of([]);
+        }),
+        takeUntilDestroyed(this.destroyRef)
+    )
+}
+```
+```angular-ts
+@Component({})
+public RickAndMortyCharacterListComponent {
+    protected characters = inject(getCharacters())
+}
+```
+```angular-ts {*|1|6-7|9|11-22|19|26}
+export const resourceService = <T>(
+  endpoint: string,
+  initialValue: T,
+  providedIn?: 'root'
+) => {
+  @Injectable({ providedIn: providedIn ?? null })
+  class SomeService {
+    private http = inject(HttpClient);
+    public data = signal<T>(initialValue);
+    public pending = signal(false);
+
+    constructor() {
+      defer(() => {
+        this.pending.set(true);
+        return this.http.get<T>(endpoint);
+      })
+        .pipe(
+          finalize(() => this.pending.set(false)),
+          takeUntilDestroyed()
+        )
+        .subscribe((result) => {
+          this.data.set(result);
+        });
+    }
+  }
+  return SomeService;
+};
+```
+
+```angular-ts
+export const RickAndMortyService = resourceService<any>(
+  'https://rickandmortyapi.com/api/character',
+  []
+);
+```
+```angular-ts
+@Component({
+providers: [RickAndMortyService]
+})
+class Component{
+    private rickAndMortyService = inject(RickAndMortyService)
+}
+```
+````
+
+
+---
+layout: cover
 ---
 
 # Start with inject()
+## Mostly a personal preference though
+---
+---
+
+# Resources for Constructor Injection
+
+<ul>
+    <li><a href="https://angular.dev/guide/di" target="_blank">Angular Docs</a></li>
+    <li><a href="https://blog.angular-university.io/angular-dependency-injection/" target="_blank">Blog by Angular University</a></li>
+    <li><a href="https://www.youtube.com/watch?v=G8zXugcYd7o&list=PLX7eV3JL9sfmJ6AaZj9eDlAKrJrEul4Vz" target="_blank">Videos By the Decoded Frontend</a></li>
+</ul>
 
 ---
 ---
 
-# Mostly a Personal Preference
+# Resources for inject() function
 
+<ul>
+    <li><a href="https://angular.dev/guide/di" target="_blank">Angular Docs</a></li>
+    <li><a href="https://marmicode.io/blog/angular-inject-and-injection-functions/" target="_blank">Blog by Younes Jaaidi</a></li>
+    <li><a href="https://nartc.me/blog/inject-function-the-right-way/" target="_blank">Blog by Chau Tran</a></li>
+    <li><a href="https://www.youtube.com/watch?v=_quyWq4NnRM" target="_blank">Videos By the Joshua Morony</a></li>
+</ul>
 
----
-layout: cover
----
-
-# Signals Components vs Components
-
----
-layout: cover
----
-
-# Vite & esbuild vs Webpack
-
-
----
-layout: cover
----
-
-# SPA vs SSR
+<style>
+    li {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
 
 ---
 layout: outro
-url: https://wordman.dev/talk/2024/kcjs
+url: https://wordman.dev/talk/2024/frontend-nation
 ---
